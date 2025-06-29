@@ -270,14 +270,6 @@
       "subtitle": "Obsidian",
       "description": "Append text to your daily note",
       "mode": "view",
-      "arguments": [
-        {
-          "name": "text",
-          "placeholder": "Take out the trash",
-          "type": "text",
-          "required": true
-        }
-      ],
       "preferences": [
         {
           "name": "appendTemplate",
@@ -606,6 +598,7 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.94.0",
+    "@raycast/utils": "^1.17.0",
     "@types/uuid": "^8.3.4",
     "fuse.js": "^7.0.0",
     "luxon": "^3.4.4",

@@ -151,10 +151,7 @@ declare namespace Arguments {
   /** Arguments passed to the `openVaultCommand` command */
   export type OpenVaultCommand = {}
   /** Arguments passed to the `dailyNoteAppendCommand` command */
-  export type DailyNoteAppendCommand = {
-  /** Take out the trash */
-  "text": string
-}
+  export type DailyNoteAppendCommand = {}
   /** Arguments passed to the `dailyNoteCommand` command */
   export type DailyNoteCommand = {}
   /** Arguments passed to the `createNoteCommand` command */
